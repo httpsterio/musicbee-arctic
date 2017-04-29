@@ -11,10 +11,12 @@ opposite = "35,121,86"
 font_1 = "16,21,26"
 font_2 = "16,21,26"
 font_3 = "16,21,26"
-wavebar_outer = "231,76,60"
-wavebar_inner = "16,21,26"
-waveunplay_outer = "33,39,46"
+
+wavebar_outer = "231,71,60"
+wavebar_inner = "248,248,240"
+waveunplay_outer = "231,71,60"
 waveunplay_inner = "16,21,26"
+
 star_highlight_foreground = "38,45,53"
 star_highlight_background = "250,250,250"
 search_bg = "16,21,26"
@@ -24,7 +26,7 @@ tabs_inactive_fg = "16,21,26"
 tabs_bg = "231,76,60"
 top_button = "16,21,26"
 top_bar_bg = "231,76,60"
-player_button_highlight = "231,76,60"
+player_button_highlight = "16,21,26"
 bottom_bar_bg = "231,76,60"
 bottom_bar_fg = "16,21,26"
 progress_bg = "16,21,26"
@@ -150,8 +152,8 @@ rgb(51,185,219)
 <element id="Panel.StarRating.Default" fg="248,248,240" fg2="30,30,30" />
 <element id="Panel.StarRating.Highlight" fg="248,248,240" fg2="font_1" />
 <element id="Panel.StarRating.Lowlight" fg="248,248,240" fg2="50,50,50" />
-<element id="Panel.NotLovedIcon.Highlight" fg="226,154,146" fg2="231,76,60" />
-<element id="Panel.NotLovedIcon.Lowlight" fg2="50,50,50" />
+<element id="Panel.NotLovedIcon.Highlight" fg="16,21,26" fg2="16,21,26" />
+<element id="Panel.NotLovedIcon.Lowlight" fg2="16,21,26" />
 <element id="NowPlayingTrackInfo" bg="25,25,25" fg="248,248,240" />
 <element id="NowPlayingLargeAlbumTrackInfo" bg="25,25,25" fg="248,248,240" />
 <element id="Content[NowPlaying].Body.Default" bg="7,7,7" fg="248,248,240" />
@@ -197,14 +199,14 @@ rgb(51,185,219)
 <element id="Controls.FaintLine" bg="50,50,50" />
 <element id="Controls.ListHeader" bg="35,35,35" bg2="15,15,15" fg="150,150,150" />
 <element id="Controls.VerticalMenu.Default" bg="35,35,35" fg="248,248,240" bdr="25,25,25" />
-<element id="Controls.VerticalMenu.Highlight" bg="231,76,60" fg="248,248,240" />
-<element id="Controls.VerticalMenu.Lowlight" bg="231,76,60" fg="190,190,190" />
+<element id="Controls.VerticalMenu.Highlight" bg="16,21,26" fg="248,248,240" />
+<element id="Controls.VerticalMenu.Lowlight" bg="16,21,26" fg="190,190,190" />
 <element id="Controls.DropdownButton.Default" bg="50,50,50" fg="170,170,170" bdr="50,50,50" />
 <element id="Controls.DropdownButton.Disabled" bg="40,40,40" fg="60,60,60" bdr="50,50,50" />
 <element id="Controls.InputControl.Default" bg="15,15,15" fg="248,248,240" bdr="40,40,40" />
 <element id="Controls.InputControl.Disabled" bg="20,20,20" fg="50,50,50" bdr="40,40,40" />
 <element id="Controls.InputControl.Modified" fg="0,250,250" />
-<element id="Controls.InputControl.Highlight" bg="231,76,60" fg="248,248,240" />
+<element id="Controls.InputControl.Highlight" bg="16,21,26" fg="248,248,240" />
 <element id="Controls.InputControl.Lowlight" bg="231,76,60" fg="190,190,190" />
 <element id="Controls.LockedInputControl.Default" fg="248,248,240" />
 <element id="Controls.LockedInputControl.Disabled" fg="80,80,80" />
@@ -325,7 +327,7 @@ rgb(51,185,219)
 <element id="Menu.CommandButton.Selected" bg="theme" fg="font_1" bdr="light_30" />
 <element id="Panel.HeaderButtonOverride.Default" fg="theme" />
 <element id="CaptionBar.HeaderControl.Default" fg="theme" />
-<element id="Panel.NotLovedIcon.Highlight" fg="226,154,146" fg2="light_30" /> 
+<element id="Panel.NotLovedIcon.Highlight" fg="16,21,26" fg2="light_30" /> 
 <element id="Panel.StarRating.Highlight" fg="star_highlight_foreground" fg2="star_highlight_background" />
 <element id="Panel.TabSelector.Highlight" bg="theme" fg="font_1" />
 <element id="Player.Wavebar" fg="231,76,60" fg2="25,25,25" />
